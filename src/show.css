@@ -1,0 +1,108 @@
+
+.møblerne .møbler2:hover{
+    transform: scale(1.5);
+}
+
+.møblerne .møbler1:hover{
+    transform: scale(1.5);
+}
+
+.kurv{
+    width: 16.5%;
+    margin-bottom: 20px;
+    margin-left: -250px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    bottom: 100px;
+    opacity: 0;
+    transition: 1.5s;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+.kurv:hover{
+
+    opacity: 1;
+}
+
+.malerierne .malerier1{
+    height: 250px;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 38px;
+    transition: 1s;
+    
+    
+
+}
+
+.malerierne .malerier2{
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 38px;
+    transition: 1s;
+
+    
+
+}
+
+
+.diverse0 a{
+    margin-left: 20px;
+}
+
+.malerierne a{
+    margin-left: 20px;
+}
+
+.møblerne a{
+    margin-left: 20px;
+}
+
+.malerierne .malerier1:hover{
+    transform: scale(1.5);
+}
+
+.malerierne .malerier2:hover{
+    transform: scale(1.5);
+}
+
+.diverse0 .diverse1{
+    height: 250px;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 38px;
+    transition: 1s;
+    
+    
+
+}
+
+
+
+
+.diverse0 .diverse2{
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 38px;
+    transition: 1s;
+
+    
+
+}
+
+.diverse0 .diverse1:hover{
+    transform: scale(1.5);
+}
+
+.diverse0 .diverse2:hover{
+    transform: scale(1.5);
+}
+
