@@ -1,11 +1,11 @@
 /* add to basket */
-let kurv = document.querySelectorAll('.kurv');
+let cart = document.querySelectorAll('.cart');
 
 gemKurv();
 
-for(let i=0; i < kurv.length; i++){
+for(let i=0; i < cart.length; i++){
 
-    kurv[i].addEventListener('click', () => {
+    cart[i].addEventListener('click', () => {
 
         kurvNummer();
     })  

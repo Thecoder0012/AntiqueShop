@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(211, 128, 51, 0.753);
+    background-color: powderblue;
     overflow-x: hidden;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,15 +11,26 @@ html,body{
     height:100%;
 }
 
-.kassebilleder{
 
-    height: 100%;
+.container{
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100%;
+    align-items: center;
+    display: flex;
 }
 
+.container img {
+    width: 70%;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    top: 10%;
+    left: 20%;
+}
+.container img:hover{
+    transform: scale(1.1);
+    transition:0.8s;
+}
 .billedeforside{
 
     height: 100%;
@@ -45,38 +56,22 @@ html,body{
 }
 
 
-.nav-bar {
-    position: relative;
-    overflow: hidden;
-    background-color: rgba(211, 128, 51, 0.753);
-}
+
 
 .tekst {
-    color: white;
+    color: black;
+    background: white;
+    padding: 2%;
+    border-radius: 20px;
     position: absolute;
     top: 80px;
     left: 16px;
-    font-size: 23px;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 2em;
   }
 
-.nav-bar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-size: 17px;
-}
 
-.nav-bar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.nav-bar a.active {
-    background-color: transparent;
-    color: white;
-}
 
 
 
@@ -140,101 +135,12 @@ html,body{
     font-size: 17px;
 }
 
-/* Farve skift når der svæves over knapper forskelligt fra hoved knappen */
 
-
-/* Specielle egenskaber for hoved knappen */
 .toppenabout a.active {
     background-color: transparent;
     
 }
 
-
-/* kontact.html */ 
-
-/* Standard egenskaber for bjælken */
-.toppenkontakt {
-    overflow: hidden;
-    background-color: black;
-}
-
-.toppenkontakt a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.toppenkontakt a.kon {
-    background-color: transparent;
-    color: white;
-}
-
-
-/* Standard egenskaber for knapper på bjælken */
-.toppenkontakt a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Farve skift når der svæves over knapper forskelligt fra hoved knappen */
-
-
-/* Specielle egenskaber for hoved knappen */
-.toppenkontakt a.active {
-    background-color: transparent;
-    
-}
-
-
-*{
-    margin: 0;
-    padding: -100px;
-    box-sizing: border-box;
-  }
-  
- 
-  .kasser{
-    margin-top: 5%;
-  }
-  
-  .kasser h1{
-
-    background-color: #f2f2f2;
-    font-family: 'Allura', cursive;
-    font-size: 52px;
-    margin-top: 5px;
-    margin-bottom: 100px;
-    text-align: center;
-
-  }
-  
-  .team{
-    display: flex;
-    justify-content: center;
-    width: auto;
-    text-align: center;
-    flex-wrap: wrap;
-  }
-  
-  .team .team_member{
-    background: black;
-    margin: 5px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 10px;
-    line-height: 20px;
-    color: #8e8b8b;  
-    position: relative;
-  }
-  
-  .team .team_member h3{
-    color: black;
-    font-size: 26px;
-    margin-top: 50px;
-  }
 
   .møbler{
     line-height: 12px;
@@ -261,46 +167,10 @@ html,body{
   }
 
 
-  .team .team_member p.role{
-    color: #ccc;
-    margin: 12px 0;
-    font-size: 12px;
-    text-transform: uppercase;
-  }
-  
-  .team .team_member .team_img{
-    position: absolute;
-    top: -60px;
-    left: 50%;
-    transform: translateX(-50%);
-    
-    border-radius: 50%;
-    background: #fff;
-  }
 
-  .team .team_img{
-      margin-top: 20px;
-  }
-  .team .team_member .team_img img{
-  
-    padding: 5px;
-  }
 
-  .kasserknap {
-    border: none;
-    background-color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-    margin-top: -20px;
-  }
 
-.kasserknap:hover {
-      background-color: rgba(211, 128, 51, 0.753);
-  }
 
-.kasserknap {color:white;}
 
 
 .møblerne .møbler1{

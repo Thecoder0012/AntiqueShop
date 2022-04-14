@@ -7,59 +7,18 @@
     <meta name="description" content="A description" />
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/contact.css">
+    <link href="../css/layout.css" rel="stylesheet">
 
-
-    <script>
-        function sendMessage() {
-            var name = document.forms["contact"]["Name"].value;
-            var email = document.forms["contact"]["Email"].value;
-            var message = document.forms["contact"]["Message"].value;
-
-
-            if (name == "" && email == "" && message == "") {
-                alert("OBS! You need to type in your information!");
-
-            } else if (name !== "" && email !== "" && message !== "") {
-                alert("Your message is sent!")
-            } else if (name == "" && email !== "" && message !== "") {
-                alert("Please enter your name")
-            } else if (name !== "" && email == "" && message !== "") {
-                alert("Please enter your mail")
-            } else if (name !== "" && email !== "" && message == "") {
-                alert("You forgot to type your message in the box")
-
-            }
-
-        }
-    </script>
 
 
 </head>
 
-<!-- Dette håndtere baggrundsbilledet og dens størrelse -->
-<style>
-    body {
-        background-repeat: no-repeat;
-        background-size: 2000px 1000px;
-    }
-</style>
 
 
-<!-- Den overordnede font størrelse af tekst på siden -->
-<style>
-    * {
-        font-size: 1.2vw;
-    }
-</style>
+<body>
 
-
-<!-- Begyndelsen af kroppen af siden samt font typen der vil blive brugt på siden -->
-
-<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-
-<!-- Den øverste bjælke laves samt knapper som vises på bjælken -->
-<div class="toppenkontakt">
-    <a href="../home.html">Home</a>
+<div class="nav-bar">
+    <a href="../index.html">Home</a>
     <a href="products.html">Products</a>
     <a href="aboutus.html">About us</a>
     <a class="kon" href="kontakt.html">Contact</a>
@@ -79,20 +38,21 @@
 
     </div>
     <div class="contact-form">
-        <h2 style="margin-left: 1px">Contact</h2>
+        <h2 >Contact</h2>
         <form name="contact" action="" method="post">
             <input type="text" name="Name" class="text-box" placeholder="Type in your name" required>
-            <input type="email" name="Email" class="text-box" placeholder="Type in yojr mail" required>
+            <input type="email" name="Email" class="text-box" placeholder="Type in your mail" required>
             <textarea name="Message" rows="5" placeholder="Indtast besked"></textarea>
         </form>
     </div>
 </div>
 
-<h1 onclick="sendMessage()" style="margin-left: 640px;"><button>Send message</button></a></h1>
+<button class="btn">Send message</button>
 
 
 
 
+<script src="/src/scripts/contact.js"></script>
 </body>
 
 </html>

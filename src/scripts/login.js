@@ -11,7 +11,7 @@ function loginButton() {
            setTimeout(wait, 3000);
 
            function wait(){
-            window.location.href='home.html'; 
+            window.location.href='index.html';
             document.getElementsByClassName('.login').innerHTML = "Logout";
            }
         }else{
