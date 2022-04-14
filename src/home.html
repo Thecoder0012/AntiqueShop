@@ -3,43 +3,27 @@
 
 <head>
     <title>Home</title>
-    <meta charset="utf-8" />
-    <meta name="description" content="A description"/>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8"/>
+    <meta content="A description" name="description"/>
+    <link href="css/main.css" rel="stylesheet">
 
 </head>
 
-<!-- Dette håndtere baggrundsbilledet og dens størrelse -->
 
+<body>
+<div class="nav-bar">
+    <a class="active" href="home.html">Home</a>
+    <a href="templates/products.html">Products</a>
+    <a href="templates/aboutus.html">About us</a>
+    <a href="templates/kontakt.html">Contact</a>
+    <a class="login" href="templates/login.html">
+        <button>Login</button>
+    </a>
+    <div class="tekst">Welcome to my antique webshop! <br>Feel free to look at the products.</div>
+    <img alt="" class="billedeforside" src="/src/images/billede.jpg">
 
-
-
-<!-- Den overordnede font størrelse af tekst på siden -->
-<style>
-    * {
-        font-size: 1.2vw;
-    }
-</style>
-
-<!-- Begyndelsen af kroppen af siden samt font typen der vil blive brugt på siden -->
-
-<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-    <h1 class="velkomst"></h1>
-
-    <!-- Den øverste bjælke laves samt knapper som vises på bjælken -->
-    <div class="toppen">
-        <a class="active" href="home.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="aboutus.html">About us</a>
-        <a href="kontakt.html">Contact</a>
-        <h1 class="login"><a href="login.html"><button>Login</button></a></h1>
-        <div class="tekst">Welcome to my antique webshop! <br>Feel free to look at the products.</div>
-        <img class="billedeforside" src="/billede.jpg" alt="">
-
-
-
-    </div>
-    <script src="login.js"></script>
+</div>
+<script src="scripts/login.js"></script>
 
 
 <a></a>

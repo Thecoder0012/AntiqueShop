@@ -45,7 +45,7 @@ html,body{
 }
 
 
-.toppen {
+.nav-bar {
     position: relative;
     overflow: hidden;
     background-color: rgba(211, 128, 51, 0.753);
@@ -59,8 +59,7 @@ html,body{
     font-size: 23px;
   }
 
-/* NavBar */
-.toppen a {
+.nav-bar a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -69,22 +68,18 @@ html,body{
     font-size: 17px;
 }
 
-/* NavBar hover */
-.toppen a:hover {
+.nav-bar a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Properties for the main button */
-.toppen a.active {
+.nav-bar a.active {
     background-color: transparent;
     color: white;
 }
 
 
-/* products.html */
 
-/* Standard egenskaber for bjælken */
 .toppenproduct {
     overflow: hidden;
     background-color: black;
@@ -102,7 +97,6 @@ html,body{
 }
 
 
-/* Standard egenskaber for knapper på bjælken */
 .toppenproduct a {
     float: left;
     color: white;
@@ -112,19 +106,15 @@ html,body{
     font-size: 17px;
 }
 
-/* Farve skift når der svæves over knapper forskelligt fra hoved knappen */
 
 
-/* Specielle egenskaber for hoved knappen */
 .toppenproduct a.active {
     background-color: transparent;
     
 }
 
 
-/* aboutus.html */
 
-/* Standard egenskaber for bjælken */
 .toppenabout {
     overflow: hidden;
     background-color: black;
@@ -141,7 +131,6 @@ html,body{
 }
 
 
-/* Standard egenskaber for knapper på bjælken */
 .toppenabout a {
     float: left;
     color: white;
