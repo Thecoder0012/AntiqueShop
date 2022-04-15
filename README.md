@@ -16,7 +16,7 @@ Clone my project with this link below:
 ```
 ## Optimizations
 
-What optimizations did you make in your code? This was a project created around 6 months ago, and uploaded 4 ago. The last couple of days, I have been doing changes in the layout, and greatly optimised the code - less code and does even more.
+This was a project created around 6 months ago, and uploaded 4 ago. The last couple of days, I have been doing changes in the layout, and greatly optimised the code - less code and does even more.
 
 ## Tech Stack
 
