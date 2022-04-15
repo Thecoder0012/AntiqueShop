@@ -20,9 +20,7 @@ This was a project created around 6 months ago, and uploaded 4 ago. The last cou
 
 ## Tech Stack
 
-**Client:** Html, CSS
-
-**Server:** JavaScript
+**Client:** Html, CSS, JavaScript
 
    
    ## Screenshot from website
