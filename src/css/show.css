@@ -1,13 +1,9 @@
-
-.møblerne .møbler2:hover{
-    transform: scale(1.5);
+html,body{
+    margin:0%;
+    height:100%;
 }
 
-.møblerne .møbler1:hover{
-    transform: scale(1.5);
-}
-
-.kurv{
+.kurv {
     width: 16.5%;
     margin-bottom: 20px;
     margin-left: -250px;
@@ -21,88 +17,45 @@
 
 }
 
-
-
-
-
-.kurv:hover{
-
-    opacity: 1;
+.painting-container {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    gap: 8rem;
 }
 
-.malerierne .malerier1{
-    height: 250px;
-    width: 250px;
-    margin-top: 80px;
-    margin-left: 38px;
-    transition: 1s;
-    
-    
-
+.painting-container .row {
+    display: flex;
+    gap: 12rem;
+    margin: 0 5% 0 0;
 }
 
-.malerierne .malerier2{
-    height: 250px;
-    width: 250px;
-    margin-top: 100px;
-    margin-left: 38px;
-    transition: 1s;
-
-    
-
+.painting-container img {
+    width: 100%;
+    height: 100%;
 }
 
-
-.diverse0 a{
-    margin-left: 20px;
+.painting-container img:hover{
+    transition: 0.6s;
+    transform: scale(2);
+    cursor: pointer;
 }
 
-.malerierne a{
-    margin-left: 20px;
+.text-container{
+    text-align: center;
 }
 
-.møblerne a{
-    margin-left: 20px;
+.text-container h1{
+    font-size: 3em;
+    font-family: New Peninim MT;
 }
 
-.malerierne .malerier1:hover{
-    transform: scale(1.5);
+.text-container p{
+    font-size: 1.5em;
+    font-family: Avenir Next;
 }
-
-.malerierne .malerier2:hover{
-    transform: scale(1.5);
-}
-
-.diverse0 .diverse1{
-    height: 250px;
-    width: 250px;
-    margin-top: 80px;
-    margin-left: 38px;
-    transition: 1s;
-    
-    
-
-}
-
-
-
-
-.diverse0 .diverse2{
-    height: 250px;
-    width: 250px;
-    margin-top: 100px;
-    margin-left: 38px;
-    transition: 1s;
-
-    
-
-}
-
-.diverse0 .diverse1:hover{
-    transform: scale(1.5);
-}
-
-.diverse0 .diverse2:hover{
-    transform: scale(1.5);
-}
-

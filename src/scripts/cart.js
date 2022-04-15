@@ -1,5 +1,5 @@
 /* add to basket */
-let cart = document.querySelectorAll('.cart');
+let cart = document.querySelectorAll('.painting-container img');
 
 gemKurv();
 
