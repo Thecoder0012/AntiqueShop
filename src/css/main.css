@@ -3,33 +3,13 @@ body{
     overflow-x: hidden;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("/src/images/billede.jpg");
+    background-size: 100% 100%;
 }
 
 html,body{
     margin:0%;
     height:100%;
-}
-
-
-.container img {
-    width: 70%;
-    border-radius: 20px;
-    position: relative;
-    cursor: pointer;
-    top: 10%;
-    left: 20%;
-}
-.container img:hover{
-    transform: scale(1.1);
-    transition:0.8s;
-}
-.billede-forside{
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 

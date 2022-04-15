@@ -1,71 +1,59 @@
 <!DOCTYPE html>
-<html lang="dk">
+<html>
 
 <head>
-    <title>Webshop</title>
-    <meta charset="utf-8" />
-    <meta name="description" content="A description"/>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/show.css">
+    <title>Furniture</title>
+    <meta charset="utf-8"/>
+    <meta content="A description" name="description"/>
+    <link href="../css/products.css" rel="stylesheet">
     <link href="../css/layout.css" rel="stylesheet">
 
 
 </head>
 
 
-
 <body>
-    <h1 class="velkomst"></h1>
 
-    <div class="nav-bar">
-        <a href="../index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="aboutus.html">About us</a>
-        <a href="contact.html">Contact</a>
-        <a class="viskurv">Cart: <span>0</span></a>
-        <h1 class="login"><a href="login.html"><button>Login</button></a></h1>
+<div class="nav-bar">
+    <a href="../index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="aboutus.html">About us</a>
+    <a href="contact.html">Contact</a>
+    <a class="cart">Cart: <span>0</span></a>
 
 
+</div>
+
+
+
+<div class="text-container">
+    <h1>
+        Furniture
+
+    </h1>
+    <p>
+        Choose a furniture and add it them to your cart.<br>
+        Each and every furniture is priced at 799$.
+    </p>
+</div>
+
+<div class="product-container">
+    <div class="row">
+        <div><img src="/src/images/furniture/møb1.webp"></div>
+        <div><img src="/src/images/furniture/møb2.webp"></div>
+        <div><img src="/src/images/furniture/møb3.webp"></div>
     </div>
 
-
-    <div class="møblerne">
-        <h1 style="font-size: 52px; margin-top: 50px; text-align: center;">Furniture</h1>
-        <img class="møbler1" style="margin-left: 630px;"  src="/Møbler1/møb1.webp" alt="">
-        <input type="button" name="" value="Add to cart" class="kurv">
-       <u> <a> Price: $300 </a> </u>
-        <p style="margin-left: 630px;"> </p>
-        <img class="møbler1" style="margin-left: 630px;" src="/Møbler1/møb2.webp" alt="">
-        <input type="button" name="" value="Add to cart" class="kurv">
-        <u> <a> Price: $300 </a> </u>
-        <p style="margin-left: 630px;">  </p>
-        <img class="møbler1" style="margin-left: 630px;" src="/Møbler1/møb3.webp" alt="">
-        <input type="button" name="" value="Add to cart" class="kurv">
-        <u> <a> Price: $300 </a> </u>
-        <p style="margin-left: 630px;">  </p>
-        <img class="møbler2" style="margin-left: 630px;" src="/Møbler1/møb4.webp" alt="">
-        <input type="button" name="" value="Add to cart" class="kurv">
-        <u> <a> Price: $300 </a> </u>
-        <p style="margin-left: 630px;"> </p>
-        <img class="møbler2" style="margin-left: 630px;" src="/Møbler1/møb5.webp" alt="">
-        <input type="button" name="" value="Add to cart" class="kurv">
-        <u> <a> Price: $300</a> </u>
-        <p style="margin-left: 630px;"> </p>
-        <img class="møbler2" style="margin-left: 630px;" src="/Møbler1/møb6.webp" alt="">
-        <input type="button" name="" value="Add to cart" class="kurv">
-        <u> <a> Price: $300 </a> </u>
-        <p style="margin-left: 630px;">  </p>
-
-
-        <script src="../scripts/cart.js"></script>
-
-
-
+    <div class="row">
+        <div><img src="/src/images/furniture/møb4.webp"></div>
+        <div><img src="/src/images/furniture/møb5.webp"></div>
+        <div><img src="/src/images/furniture/møb6.webp"></div>
     </div>
 
+</div>
 
 
-
+<script src="../scripts/cart.js"></script>
 </body>
 
 </html>

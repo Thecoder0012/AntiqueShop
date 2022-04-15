@@ -1,5 +1,5 @@
 /* add to basket */
-let cart = document.querySelectorAll('.painting-container img');
+let cart = document.querySelectorAll('.product-container img');
 
 gemKurv();
 
@@ -15,7 +15,7 @@ function gemKurv(){
     let produkter = localStorage.getItem('kurvNummer');
 
     if(produkter){
-        document.querySelector('.viskurv span').textContent = produkter;
+        document.querySelector('.cart span').textContent = produkter;
 
     }
 }
@@ -27,12 +27,12 @@ function kurvNummer(){
     
     if(produkter){
         localStorage.setItem('kurvNummer', produkter + 1);
-        document.querySelector('.viskurv span').textContent = produkter + 1;
+        document.querySelector('.cart span').textContent = produkter + 1;
 
     } else {
 
         localStorage.setItem('kurvNummer', + 1);
-        document.querySelector('.viskurv span').textContent = 1;
+        document.querySelector('.cart span').textContent = 1;
 
     }
 
